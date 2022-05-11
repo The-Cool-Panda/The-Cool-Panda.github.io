@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-image: url(/pics/home\ pg.jfif);
+    background-size: cover;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+table {
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  opacity: 0.6;
+  border:1px solid black;
+  border-collapse: collapse;
+}
+tr, td{
+  padding: 50px;
+  color: rgb(0, 0, 0);
+  border:1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+h1,h2,h3 {
+  color: white;
+  align-self: center;
+}
+                    /* start of nav.bar */
+                    :root{
+                      --cfon:#FFF/*cofn= colorfont of nav.bar  */
+                  }
+                  ul {
+                      list-style-type: none;
+                      margin: 0;
+                      padding: 0;
+                      overflow: hidden;
+                      background-color: #02638a;
+                      position: fixed;
+                      width: 100%;
+                      z-index: 1;
+                      top: 0;
+                  }
+                  
+                  li {
+                      float: left;
+                  }
+                  
+                  li a {
+                      display: block;
+                      color: var(--cfon);
+                      text-align: center;
+                      padding: 14px 16px;
+                      text-decoration: none;
+                      padding: 14px 50px;
+                  }
+                  
+                  li a:hover {
+                      background-color: rgb(3, 17, 49);
+                  
+                  
+                  }
+.box {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+
+}
+.box p {
+  margin: 5%;
+  opacity: 1;
+  color: rgb(0, 0, 0);
+  
+}
+
+.h1 {
+  text-align:center;
+  color:#4ec6c4;
+  margin-top: 70px;
+}
+.sshow {
+  width: 100%;
+  align-items: center;
+}
+* {box-sizing:border-box}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(16, 9, 72);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #0a0a0df8;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  padding-left: px;
+  border-radius:25px;
+}
+
+.pics {
+  width: 400px;
+  height: 285px;
+  margin-left: 20px;
+  border-radius: 25px;
+  margin-top: 50px;
+  transition: 0.3s;
+}
+
+.pics:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.revpic {
+  width: 50%;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;}
+.valo {
+  text-align: center;
+  color: white;
+  text-shadow: -1px 0 #dc3d4b, 0 1px #dc3d4b, 1px 0 #dc3d4b, 0 -1px #dc3d4b;
+}
+.rev {
+  text-align: center;
+  color: white;
+  text-shadow: -1px 0 #dc3d4b, 0 1px #dc3d4b, 1px 0 #dc3d4b, 0 -1px #dc3d4b;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: rgb(16, 9, 72);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.trailer {
+  display: block;
+  margin-top:110px;
+  margin-left:340px;
+}
+.spec {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  text-shadow: -1px 0 #dc3d4b, 0 1px #dc3d4b, 1px 0 #dc3d4b, 0 -1px #dc3d4b;
+}

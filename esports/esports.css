@@ -1,0 +1,91 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#655EFF;
+    font-family: arial;
+}
+
+/* start of nav.bar */
+:root{
+    --cfon:#FFF/*cofn= colorfont of nav.bar  */
+}
+ul {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #02638a;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: var(--cfon);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding: 14px 50px;
+}
+
+li a:hover {
+    background-color: rgb(3, 17, 49);
+
+
+}
+.active {
+    background-color: #0a0a0df8;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 5px;
+    text-align: center;
+    color: wheat;
+}
+p{
+    color: rgb(255, 255, 255);
+}
+
+.cover {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.history{
+    text-align: center;
+    margin-top: 100px;
+    margin-right:10px;
+    text-align: justify;
+}
+
+.p1 {
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.teams {
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 30px;
+    text-align: justify;
+
+}
+
+.p2 {
+    float:right;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
